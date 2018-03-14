@@ -1,0 +1,151 @@
+[09-May-2017 20:07:21 UTC] PHP Warning:  include(../dbh.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 5
+[09-May-2017 20:07:21 UTC] PHP Stack trace:
+[09-May-2017 20:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 20:07:21 UTC] PHP Warning:  include(): Failed opening '../dbh.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 5
+[09-May-2017 20:07:21 UTC] PHP Stack trace:
+[09-May-2017 20:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 20:07:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 12
+[09-May-2017 20:07:21 UTC] PHP Stack trace:
+[09-May-2017 20:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 20:07:21 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/features/searchs/a_search_post.php:12
+[09-May-2017 20:07:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 14
+[09-May-2017 20:07:21 UTC] PHP Stack trace:
+[09-May-2017 20:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 20:07:21 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:14
+[09-May-2017 21:00:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:00:44 UTC] PHP Stack trace:
+[09-May-2017 21:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:00:44 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:01:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:01:01 UTC] PHP Stack trace:
+[09-May-2017 21:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:01:01 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:05:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:05:18 UTC] PHP Stack trace:
+[09-May-2017 21:05:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:05:18 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:05:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:05:20 UTC] PHP Stack trace:
+[09-May-2017 21:05:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:05:20 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:11:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:11:47 UTC] PHP Stack trace:
+[09-May-2017 21:11:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:11:47 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:13:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:13:57 UTC] PHP Stack trace:
+[09-May-2017 21:13:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:13:57 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:15:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:15:33 UTC] PHP Stack trace:
+[09-May-2017 21:15:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:15:33 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:17:38 UTC] PHP Parse error:  syntax error, unexpected '$arrival_airport' (T_VARIABLE) in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 12
+[09-May-2017 21:18:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:18:00 UTC] PHP Stack trace:
+[09-May-2017 21:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:18:00 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:18:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:18:56 UTC] PHP Stack trace:
+[09-May-2017 21:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:18:56 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:20:40 UTC] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 12
+[09-May-2017 21:20:40 UTC] PHP Stack trace:
+[09-May-2017 21:20:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:20:40 UTC] PHP   2. mysqli_escape_string() /home/ubuntu/workspace/features/searchs/a_search_post.php:12
+[09-May-2017 21:21:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:21:03 UTC] PHP Stack trace:
+[09-May-2017 21:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:21:03 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:22:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 18
+[09-May-2017 21:22:29 UTC] PHP Stack trace:
+[09-May-2017 21:22:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:22:29 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:18
+[09-May-2017 21:26:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 21
+[09-May-2017 21:26:21 UTC] PHP Stack trace:
+[09-May-2017 21:26:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:26:21 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:21
+[09-May-2017 21:26:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 21
+[09-May-2017 21:26:58 UTC] PHP Stack trace:
+[09-May-2017 21:26:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:26:58 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:21
+[09-May-2017 21:28:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 21
+[09-May-2017 21:28:48 UTC] PHP Stack trace:
+[09-May-2017 21:28:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:28:48 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:21
+[09-May-2017 21:31:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 21
+[09-May-2017 21:31:15 UTC] PHP Stack trace:
+[09-May-2017 21:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:31:15 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:21
+[09-May-2017 21:35:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 17
+[09-May-2017 21:35:57 UTC] PHP Stack trace:
+[09-May-2017 21:35:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:35:57 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:17
+[09-May-2017 21:38:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 17
+[09-May-2017 21:38:00 UTC] PHP Stack trace:
+[09-May-2017 21:38:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:38:00 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:17
+[09-May-2017 21:38:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/d_search_post.php on line 17
+[09-May-2017 21:38:25 UTC] PHP Stack trace:
+[09-May-2017 21:38:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/d_search_post.php:0
+[09-May-2017 21:38:25 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/d_search_post.php:17
+[09-May-2017 21:38:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/a_search_post.php on line 17
+[09-May-2017 21:38:39 UTC] PHP Stack trace:
+[09-May-2017 21:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/a_search_post.php:0
+[09-May-2017 21:38:39 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/a_search_post.php:17
+[09-May-2017 21:38:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/d_search_post.php on line 17
+[09-May-2017 21:38:53 UTC] PHP Stack trace:
+[09-May-2017 21:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/d_search_post.php:0
+[09-May-2017 21:38:53 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/d_search_post.php:17
+[10-May-2017 03:47:22 UTC] PHP Warning:  include(../dbh.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:47:22 UTC] PHP Stack trace:
+[10-May-2017 03:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:47:22 UTC] PHP Warning:  include(): Failed opening '../dbh.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:47:22 UTC] PHP Stack trace:
+[10-May-2017 03:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:47:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/features/adds/aa.php on line 17
+[10-May-2017 03:47:22 UTC] PHP Stack trace:
+[10-May-2017 03:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:47:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/features/adds/aa.php:17
+[10-May-2017 03:47:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/features/adds/aa.php on line 18
+[10-May-2017 03:47:22 UTC] PHP Stack trace:
+[10-May-2017 03:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:47:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/features/adds/aa.php:18
+[10-May-2017 03:51:29 UTC] PHP Warning:  include(../dbh.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:51:29 UTC] PHP Stack trace:
+[10-May-2017 03:51:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:51:29 UTC] PHP Warning:  include(): Failed opening '../dbh.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:51:29 UTC] PHP Stack trace:
+[10-May-2017 03:51:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:51:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/features/adds/aa.php on line 17
+[10-May-2017 03:51:29 UTC] PHP Stack trace:
+[10-May-2017 03:51:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:51:29 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/features/adds/aa.php:17
+[10-May-2017 03:51:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/features/adds/aa.php on line 18
+[10-May-2017 03:51:29 UTC] PHP Stack trace:
+[10-May-2017 03:51:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:51:29 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/features/adds/aa.php:18
+[10-May-2017 03:53:34 UTC] PHP Warning:  include(../dbh.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:53:34 UTC] PHP Stack trace:
+[10-May-2017 03:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:53:34 UTC] PHP Warning:  include(): Failed opening '../dbh.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:53:34 UTC] PHP Stack trace:
+[10-May-2017 03:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:53:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/features/adds/aa.php on line 16
+[10-May-2017 03:53:34 UTC] PHP Stack trace:
+[10-May-2017 03:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:53:34 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/features/adds/aa.php:16
+[10-May-2017 03:56:47 UTC] PHP Warning:  include(../dbh.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:56:47 UTC] PHP Stack trace:
+[10-May-2017 03:56:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:56:47 UTC] PHP Warning:  include(): Failed opening '../dbh.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/features/adds/aa.php on line 5
+[10-May-2017 03:56:47 UTC] PHP Stack trace:
+[10-May-2017 03:56:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:56:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/features/adds/aa.php on line 16
+[10-May-2017 03:56:47 UTC] PHP Stack trace:
+[10-May-2017 03:56:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/adds/aa.php:0
+[10-May-2017 03:56:47 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/features/adds/aa.php:16
+[10-May-2017 18:59:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/features/searchs/d_search_post.php on line 17
+[10-May-2017 18:59:09 UTC] PHP Stack trace:
+[10-May-2017 18:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/features/searchs/d_search_post.php:0
+[10-May-2017 18:59:09 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/features/searchs/d_search_post.php:17

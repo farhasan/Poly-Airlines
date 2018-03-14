@@ -1,0 +1,12 @@
+-index.php is the homepage for the entire app and for each user
+-each file in the signups folder is used towards signing up for the website, register.php is the form interface,
+ and each other file are the scripts executed to register the user
+-each file in the logins folder is used towards logging into the website, login.php is the form interface,
+ login_error is what comes up if the login was incorrect and logout is the page shown when the session is destroyed,
+ the other files are the scripts used towards logging in the user
+-the features folder houses the features that are available to each user
+ any file with "_funcs" are function definitions along with flights.php, "agentlist" provides the top agents to airlinestaff
+ all planes lists all the airplanes once an airplane is added, all airports does the same, flightlist shows all flights in
+ the system, searchflights is the form interface which searches for flights based on certain criteria,
+ in the features folder there is an adds folder which houses the scripts for adding airplanes, ,airports, and flights along with
+ changing the flight status and searchs houses the scripts for the searching feature

@@ -1,0 +1,65 @@
+Not Logged In:
+---------------
+Register: adds user to database depending on user type, example: adding a customer
+
+INSERT INTO customer (email, name, password, building_number, street, city, state, phone_number, passport_number, passport_expiration, passport_country, date_of_birth)
+VALUES ('$email', '$name', '$hashed', '$building_number', '$street', '$city', '$state', '$phone_number', '$passport_number', 
+'$passport_expiration', '$passport_country', '$date_of_birth');
+
+Log In: logs user into site based on user type, example: logging in a booking agentlist
+
+"SELECT * FROM booking_agent WHERE email='$email' AND password='$hashed'";
+
+View all Flights: views all flights in system
+
+SELECT * FROM flight
+
+Search for a Flight: searchs for flights based on criteria, example: based on selected departing airport
+
+SELECT * FROM flight WHERE departure_airport = '$departure_airport'
+
+Customer
+---------
+View Purchased Flights: views all flights purchased by customer
+
+SELECT * FROM purchases WHERE customer_email='$c_email'
+
+Booking Agent
+-------------
+
+View Purchased Flights: views all flights purchased by booking_agent
+
+SELECT * FROM purchases WHERE booking_agent_id='$b_id'
+
+View Commission: views commission based on flights sold
+
+SELECT (SUM(price) * 0.1) AS total_commission FROM ticket NATURAL JOIN (purchases NATURAL JOIN flight) WHERE booking_agent_id='$b_id'
+
+View Customer Info: views most frequent customer and customer info based on selection (**selection feature does not work cannot
+tell why but the programming logic and the syntax is all correct, could not debug however)
+
+top customer:
+select customer_email, count(customer_email) as ticket_num from purchases natural join booking_agent group by customer_email order by ticket_num desc limit 1;
+
+customer info:
+SELECT * FROM customer WHERE email='$email'
+
+
+Airline Staff
+----------------
+Add an airplane: adds airplane to the database
+INSERT INTO airplane (airline_name, airplane_id, seats) VALUES ('$airline_name', '$airplane_id', '$seats')
+
+Add an airport: adds airport to the database
+INSERT INTO airport (airport_name, airport_city) VALUES ('$airport_name', '$airport_city')
+
+Add a flight: adds a flight to tge database
+INSERT INTO flight(airline_name, flight_num, departure_airport, departure_time, arrival_airport, arrival_time, price, status, airplane_id)
+VALUES ('$airline_name', '$flight_num', '$departure_airport', '$departure_time', '$arrival_airport', '$arrival_time', '$price', '$status', 
+'$airplane_id');
+
+Change flight status: identfies flight and edits the status row
+UPDATE flight SET status='$status' WHERE (airline_name='$airline_name' AND flight_num='$flight_num');
+
+View top agents: sees top booking agents based on most ticket sales and most commission, ex: most ticket sales
+select booking_agent_id,count(booking_agent_id) as ticket_count from purchases natural join booking_agent order by ticket_count desc limit 5;
