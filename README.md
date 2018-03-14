@@ -1,0 +1,1 @@
+This is an Airplane Reservation system written using PHP connecting to a MySQL database. It features user registration, login, authentication, and different user types and permissions. Users can view available flights, book flights, add flights, change flight times and statuses depending on their user type.
